@@ -1,2 +1,3 @@
 # Cash-register-Manager
- this is an app for checking the money you have paid and excluding  your your bill amount what money is to be retuned to you 
+ Enter the bill amount & the amount given to you by customer to know how much
+ change should be given back to the customer
