@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+:root{
+    --dark-purple : #f06df0;
+    --faint-purple: #dfa3ee;
+}
+
+body {
+    font-family: 'Besley', serif;
+}
+
+.bg {
+    background-image: url(images/dollarrain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #464646;
+}
+
+
+.heading {
+    margin: 1.8rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    margin-top: .5rem;
+}
+
+.container {
+    /* background-color:#b606b6 ; */
+    background-color:#f06df0;
+    width: 25rem;
+    margin: 1rem auto;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 7px #cd84d6;
+    color:#791886f1;
+}
+
+.billLabel {
+    margin: 0rem 6rem;
+    font-weight: bold;
+}
+
+#billAmount {
+    margin: .5rem 0rem;
+    padding: 0.6rem 1rem;
+    height: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+    border: none;
+}
+
+.next-btn {
+    margin: 1.2rem 10rem;
+    padding: .5rem 1rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 2.5rem;
+    border-color: black;
+    border-width: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: var(--faint-purple);
+}
+
+.amountLabel {
+    margin: 0rem 5rem;
+    font-weight: bold;
+}
+
+#userAmount {
+    margin: .5rem 0rem;
+    padding: 0.6rem 1rem;
+    height: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+    border: none
+}
+
+.check-btn {
+    margin: 1.2rem 10rem;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 5rem;
+    height: 2.5rem;
+    border-color: black;
+    border-width: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.check-btn:hover {
+    background-color: var(--faint-purple);
+}
+
+.p-text {
+    margin: .8rem 0rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+table {
+    border: 2px solid #c347ce;
+}
+
+td {
+    border: 1px solid #72147a;
+    margin: 1rem;
+    width: 13rem;
+    height: 3.5rem;
+}
+
+.td-center {
+    text-align: center;
+}
+
