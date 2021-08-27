@@ -21,9 +21,10 @@
 
 body {
     font-family: 'Besley', serif;
+    margin: 0;
 }
 
-.bg {
+.bg-body {
     background-image: url(images/dollarrain.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +63,7 @@ p {
     font-weight: bold;
 }
 
-#billAmount {
+#billsAmount {
     margin: .5rem 0rem;
     padding: 0.6rem 1rem;
     height: 2rem;
@@ -92,7 +93,7 @@ p {
     font-weight: bold;
 }
 
-#userAmount {
+#enteredAmount {
     margin: .5rem 0rem;
     padding: 0.6rem 1rem;
     height: 2rem;
@@ -138,3 +139,60 @@ td {
     text-align: center;
 }
 
+.footer {
+    background-color:#cb66d8;
+    padding-top: 2.5rem;
+    padding-bottom: 2.2rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius:1rem ;
+    color: #ac2eb1;
+    margin-top: 0.5rem;
+   
+}
+
+.footer .link {
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.footer .text-align {
+    text-align: center;
+    margin: 0px;
+}
+
+
+.footer .list-non-bullet {
+   
+   list-style: none;
+   text-align: center;
+   padding: 1.5rem;
+}
+
+.footer .footer-header {
+   font-size: large;
+   font-weight: bold;
+}
+.footer ul {
+padding-inline-start: 0px;
+}
+
+.socialIcon {
+   display: inline-block;
+   block-size: 2.1rem;
+   margin-top: 1rem;
+padding: 0rem 0.6rem;}
+
+.list-item-inline {
+    display: inline;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    
+}
