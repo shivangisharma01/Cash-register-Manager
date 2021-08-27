@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg">
+<body class="bg-body">
     <div class="container">
         <section class="heading">
             <h1>Cash Register Manager</h1>
@@ -21,7 +21,7 @@
         <section>
             <label for="billAmount" class="billLabel">Enter the Bill Amount : </label>
             <br>
-            <input type="number" name="billAmount" id="billAmount">
+            <input type="number" name="billAmount" id="billsAmount">
 
             <br>
             <button class="next-btn">Next</button>
@@ -30,7 +30,7 @@
             <section class="hide">
                 <label for="userAmount" class="amountLabel">Enter the Amount recieved : </label>
                 <br>
-                <input type="number" name="userAmount" id="userAmount">
+                <input type="number" name="userAmount" id="enteredAmount">
 
                 <button class="check-btn">Check</button>
 
@@ -66,8 +66,26 @@
                     </tbody>
                 </table>
 
-                <p class="p-hide"></p>
+                <p class="hide-p"></p>
             </section>
+
+<footer class="footer" style="margin-top: 3rem;">
+
+    <div class="footer-header">Link to my social media account's</div>
+    <ul>
+      <li class="list-item-inline">
+        <a class="links " href="https://github.com/shivangisharma01" target="blank"><img class="socialIcon" src="images/gitlogo.svg"> </a>
+
+      </li>
+      <li class="list-item-inline">
+        <a class="links" href="https://twitter.com/shivangi_1001" target="blank"><img class="socialIcon" src="images/twitterlogo.svg"></a>
+      </li>
+      <li class="list-item-inline">
+        <a class="links" href="https://linkedin.com/in/shivangi-sharma-1713181b7" target="blank"><img class="socialIcon" src="images/linkedinlogo.svg"></a>
+      </li>
+
+    </ul>
+  </footer>
             <script src="./app.js"></script>
     </div>
 </body>
